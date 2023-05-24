@@ -1,0 +1,175 @@
+/* --------------Phone Screen--------------- */
+
+@media only screen and (max-width: 420px) {
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #7C3C21;
+        color: #FFFFFF;
+    }
+
+/* --------------------Cover Page------------------ */
+
+    #cover-page {
+        width: 100%;
+        height: 100vh;
+        background-image: url(img/air\ force.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .container {
+        padding: 10px 10%;
+    }
+
+    .cover-text {
+        margin-top: 100%;
+        font-size: 30px;
+    }
+
+    .header-text h2 {
+        font-size: 30px;
+    }
+
+/* --------------------------Think Page------------------------- */
+    #think-page{
+        height: 100vh;
+        width: 100%;
+    }
+/* --------------- */
+    .bar1{
+        height: 10vh;
+    }
+/* ---------------------- */
+    .bar2{
+        height: 22.5vh;
+        display: flex;
+    }
+
+    .bar2-left{
+        width: 22vh;
+        height: 22.5vh;
+    }
+/* --------------bubble 1------------------ */
+    .bubble1{
+        height: 23vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .my-file{
+        width: 140px;
+        font-size: 25px;
+        background-color: white;
+        color: black;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .my-file:before{
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-right: 13px solid transparent;
+        border-left: 13px solid transparent;
+        border-top: 26px solid white;
+        margin: 48px 0 0 40px;
+    }
+
+    .bar2-right{
+        width: 22vh;
+        height: 22.5vh;
+    }
+/* ---------------------------bubble 2--------------------------- */
+    .bubble2{
+        height: 23vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .strengths{
+        width: 140px;
+        font-size: 25px;
+        background-color: white;
+        color: black;
+        padding: 20px;
+        border-radius: 10px;
+    }
+/* ----------------------------- */
+    .bar3{
+        height: 35vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .bar3>img{
+        border-radius: 50%;
+    }
+/* --------------------------- */
+    .bar4{
+        height: 22.5vh;
+        display: flex;
+    }
+
+    .bar4-left{
+        width: 22vh;
+        height: 22.5vh;
+    }
+/* ------------------------bubble 3--------------------------- */
+    .bubble3{
+        height: 23vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .projects{
+        width: 140px;
+        font-size: 25px;
+        background-color: white;
+        color: black;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .bar4-right{
+        width: 22vh;
+        height: 22.5vh;
+    }
+/* --------------------------bubble 4------------------------- */
+    .bubble4{
+        height: 23vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact{
+        width: 140px;
+        font-size: 25px;
+        background-color: white;
+        color: black;
+        padding: 20px;
+        border-radius: 10px;
+    }
+/* --------------------------------------Shadow---------------------------- */
+    .shadow{
+        box-shadow: 10px 10px 10px black;
+        position: relative;
+        bottom: 5px;
+        cursor: pointer;
+    }
+/* ------------------------------ */
+    .bar5{
+        height: 10vh;
+
+    }
+}
